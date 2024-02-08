@@ -1,0 +1,90 @@
+/* CSS GLOBAL */
+* {
+  margin: 0;
+}
+section#nav img.logo {
+  width: 100px;
+  height: 80px;
+}
+body {
+  color: white;
+  font-size: 16px;
+}
+h1 {
+  font-size: 2rem;
+}
+a {
+  text-decoration: none;
+  color: white;
+}
+ul {
+  list-style: none;
+}
+/* CSS SPECIFIQUE */
+/* header */
+header {
+  background: url(../imgs/lav-2.webp);
+  height: 700px;
+}
+header div#line_top {
+  background: black;
+  opacity: 60%;
+  height: 15px;
+}
+section#nav {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  position: sticky;
+  top: 0;
+}
+
+header section#nav button {
+  background-color: black;
+  opacity: 60%;
+  width: 160px;
+  height: 80px;
+  border: none;
+}
+header section#nav nav button a {
+  width: 160px;
+  height: 80px;
+}
+
+header article {
+  display: flex;
+  width: 30%;
+  flex-wrap: wrap;
+  margin: 120px 0 0 120px;
+}
+header article p {
+  font-size: 1.2rem;
+  margin-top: 20px;
+}
+/* Services */
+main section#services {
+  background: #c9c26e;
+  color: black;
+  height: 500px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+section#services h2 {
+  padding: 5px 0;
+}
+main section#services img {
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+  object-fit: cover;
+}
+main section#services ul {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+  align-items: center;
+}
+main section#services ul li {
+}
